@@ -12,3 +12,19 @@
   babel src --out-dir dist -w  持续监听
 
 6.当前项目需要babel依赖的时候 npm install babel-cli --save-dev
+
+7.如何使用预设
+  1.touch .babelrc  并在.babelrc加上
+  {
+    "presets": ["es2015"]
+  }
+  2.npm install babel-preset-es2015 --save-dev
+
+  3.package.json 文件中 ：
+    "build": "babel src -d dist -w"
+
+    命令行 npm run build 持续监听
+8.npm install babel-preset-es2015-loose --save-dev
+
+
+
