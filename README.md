@@ -25,6 +25,3 @@
 
     命令行 npm run build 持续监听
 8.npm install babel-preset-es2015-loose --save-dev
-
-
-
